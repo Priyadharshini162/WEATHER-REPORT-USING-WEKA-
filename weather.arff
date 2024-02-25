@@ -1,0 +1,14 @@
+@relational weather
+@attribute outlook {sunny,overcast,rainy}   
+@attribute tempreture {hot,mild,cool}   
+@attribute humidity {high,normal}   
+@attribute windy {TRUE,FALSE}   
+@attribute play {yes,no}   
+  
+@data   
+sunny,hot,high,FALSE,no   
+sunny,hot,high,TRUE,yes   
+overcast,hot,high,TRUE,yes   
+overcast,cool,normal,TRUE,yes   
+rainy,cool,normal,FALSE,no   
+rainy,cool,normal,TRUE,no  
